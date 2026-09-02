@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    margin: 5px;
+    color: black;
+}
+
+/* Heading */
+h2 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+
+/* Menu */
+.menu {
+    width: 370px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.menu td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.menu td:first-child {
+    width: 90px;
+}
+
+.menu td:nth-child(2) {
+    width: 220px;
+}
+
+
+/* Banner */
+.banner {
+    width: 365px;
+    height: 145px;
+    border: 1px solid #ccc;
+}
+
+
+/* Products */
+.products {
+    width: 710px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.products th {
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.products td {
+    width: 33%;
+    height: 260px;
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 4px;
+}
+
+.product-img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 8px auto 15px;
+}
+
+.products h2 {
+    font-size: 17px;
+}
+
+.products p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+button {
+    font-size: 11px;
+    padding: 2px 6px;
+}
+
+input {
+    width: 135px;
+    height: 16px;
+    font-size: 11px;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
