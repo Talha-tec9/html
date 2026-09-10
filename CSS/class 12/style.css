@@ -1,0 +1,31 @@
+#container{
+ height: 600px;
+ width: 350px;
+ border: 3px solid black;
+ padding: auto;
+ margin: 50px auto 50px auto;
+ border-radius: 30px;
+position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0; 
+    left: 100px;
+    border-radius: 30%;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    
+}
+
+
