@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <fieldset>
+            <legend>Your Details:</legend>
+
+            <label>
+                Name:
+                <input type="text" name="name">
+            </label>
+            <br>
+
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Your Review:</legend>
+
+            <label>
+                How did you hear about us?
+                <select name="source">
+                    <option>Google</option>
+                    <option>Facebook</option>
+                    <option>Friend</option>
+                    <option>Other</option>
+                </select>
+            </label>
+
+            <br><br>
+
+            <label>Would you visit again?</label>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="visit" value="yes">
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="visit" value="no">
+                    No
+                </label>
+
+                <label>
+                    <input type="radio" name="visit" value="maybe">
+                    Maybe
+                </label>
+            </div>
+
+            <label>Comments:</label>
+            <textarea name="comments"></textarea>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="updates" checked>
+                    Sign me up for email updates
+                </label>
+            </div>
+
+            <br>
+
+            <button type="submit">Submit review</button>
+
+        </fieldset>
+
+    </form>
+    <form>
+        <fieldset>
+            <legend>Contect details</legend>
+            <label>
+                Name:   <br>
+                <input type="text" placeholder="Enter your name"> <br>
+                Email:   <br>
+                <input type="text" placeholder="Enter your email">  <br>
+                Mobile:  <br>
+                <input type="number" placeholder="Your number">
+            </label>
+        </fieldset>
+    </form>
+
+   </div> 
+</body>
+</html>
