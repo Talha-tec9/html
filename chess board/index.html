@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chess Board</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #222;
+        }
+
+        .chess-board {
+            width: 560px;
+            height: 560px;
+
+            display: grid;
+
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+
+            border: 5px solid #111;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 48px;
+            line-height: 1;
+        }
+
+        .white {
+            background: #ffffff;
+        }
+
+        .black {
+            background: #000000;
+        }
+
+        /* White chess pieces */
+        .white-piece {
+            color: white;
+            text-shadow:
+                2px 2px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000;
+        }
+
+        /* Black chess pieces */
+        .black-piece {
+            color: hsl(0, 16%, 96%);
+            text-shadow: 1px 1px 0 #777;
+        }
+
+        @media (max-width: 600px) {
+            .chess-board {
+                width: 90vw;
+                height: 90vw;
+            }
+
+            .box {
+                font-size: 8vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="chess-board">
+
+    <!-- BLACK PIECES -->
+
+    <!-- Row 1 -->
+    <div class="box white">
+        <span class="black-piece">♜</span>
+    </div>
+
+    <div class="box black">
+        <span class="black-piece">♞</span>
+    </div>
+
+    <div class="box white">
+        <span class="black-piece">♝</span>
+    </div>
+
+    <div class="box black">
+        <span class="black-piece">♛</span>
+    </div>
+
+    <div class="box white">
+        <span class="black-piece">♚</span>
+    </div>
+
+    <div class="box black">
+        <span class="black-piece">♝</span>
+    </div>
+
+    <div class="box white">
+        <span class="black-piece">♞</span>
+    </div>
+
+    <div class="box black">
+        <span class="black-piece">♜</span>
+    </div>
+
+
+    <!-- Row 2 -->
+    <div class="box black"><span class="black-piece">♟</span></div>
+    <div class="box white"><span class="black-piece">♟</span></div>
+    <div class="box black"><span class="black-piece">♟</span></div>
+    <div class="box white"><span class="black-piece">♟</span></div>
+    <div class="box black"><span class="black-piece">♟</span></div>
+    <div class="box white"><span class="black-piece">♟</span></div>
+    <div class="box black"><span class="black-piece">♟</span></div>
+    <div class="box white"><span class="black-piece">♟</span></div>
+
+
+    <!-- Empty Row 3 -->
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+
+
+    <!-- Empty Row 4 -->
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+
+
+    <!-- Empty Row 5 -->
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+
+
+    <!-- Empty Row 6 -->
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+
+
+    <!-- WHITE PAWNS -->
+
+    <!-- Row 7 -->
+    <div class="box white"><span class="white-piece">♙</span></div>
+    <div class="box black"><span class="white-piece">♙</span></div>
+    <div class="box white"><span class="white-piece">♙</span></div>
+    <div class="box black"><span class="white-piece">♙</span></div>
+    <div class="box white"><span class="white-piece">♙</span></div>
+    <div class="box black"><span class="white-piece">♙</span></div>
+    <div class="box white"><span class="white-piece">♙</span></div>
+    <div class="box black"><span class="white-piece">♙</span></div>
+
+
+    <!-- WHITE PIECES -->
+
+    <!-- Row 8 -->
+    <div class="box black">
+        <span class="white-piece">♖</span>
+    </div>
+
+    <div class="box white">
+        <span class="white-piece">♘</span>
+    </div>
+
+    <div class="box black">
+        <span class="white-piece">♗</span>
+    </div>
+
+    <div class="box white">
+        <span class="white-piece">♕</span>
+    </div>
+
+    <div class="box black">
+        <span class="white-piece">♔</span>
+    </div>
+
+    <div class="box white">
+        <span class="white-piece">♗</span>
+    </div>
+
+    <div class="box black">
+        <span class="white-piece">♘</span>
+    </div>
+
+    <div class="box white">
+        <span class="white-piece">♖</span>
+    </div>
+
+</div>
+
+</body>
+</html>

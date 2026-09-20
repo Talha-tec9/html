@@ -1,0 +1,115 @@
+/* =================================
+   EXTERNAL CSS
+   ================================= */
+
+
+/* 1. Universal Selector (*)
+   Applies to every element
+*/
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Basic body styling */
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+
+
+/* 2. Type Selector
+   Selects all elements of a particular type
+*/
+p {
+    color: #444;
+    line-height: 1.6;
+}
+
+
+/* 3. Class Selector
+   Selects elements having class="profile"
+*/
+.profile {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+
+/* Another class selector */
+.selector-practice {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+
+/* 4. ID Selector
+   Selects id="special"
+*/
+#special {
+    color: red;
+}
+
+
+/* 5. Child Selector (>)
+   Selects only direct children
+*/
+.selector-practice > div {
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+
+/* Direct child paragraph */
+.selector-practice > div > p {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+
+/* 6. Descendant Selector
+   Selects p anywhere inside div
+*/
+.selector-practice div p {
+    color: darkgreen;
+}
+
+
+/* 7. Adjacent Sibling Selector (+)
+   Selects p immediately after h3
+*/
+.selector-practice h3 + p {
+    background-color: lightyellow;
+    padding: 10px;
+    color: purple;
+}
+
+
+/* 8. General Sibling Selector (~)
+   Selects all p elements after h3
+*/
+.selector-practice h3 ~ p {
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+
+
+/* List styling */
+li {
+    margin: 8px;
+}
+
+
+/* Hover practice */
+li:hover {
+    color: blue;
+    cursor: pointer;
+}

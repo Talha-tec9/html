@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        .internal-text {
+            color: green;
+            font-size: 18px;
+        }
+
+        #internal-box {
+            background-color: lightyellow;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Profile</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: red; font-size: 20px;">
+        This paragraph is using Inline CSS.
+    </p>
+
+    <div class="profile">
+
+        <h2>About Me</h2>
+
+        <p class="internal-text">
+            My name is Muhammad Sultan. I am learning HTML and CSS.
+        </p>
+
+        <div id="internal-box">
+            This box demonstrates Internal CSS.
+        </div>
+
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h2>My Goals</h2>
+
+        <p>I want to become a web developer.</p>
+
+        <p>I am practicing CSS selectors.</p>
+
+    </div>
+
+    <section class="selector-practice">
+
+        <h2>CSS Selectors Practice</h2>
+
+        <div>
+            <p>This is a direct child paragraph.</p>
+
+            <article>
+                <p>This is a descendant paragraph.</p>
+            </article>
+        </div>
+
+        <h3>Adjacent Selector</h3>
+        <p>This paragraph comes immediately after h3.</p>
+
+        <p>This is another paragraph.</p>
+
+        <h3>General Sibling Selector</h3>
+        <p>General sibling paragraph 1.</p>
+        <p>General sibling paragraph 2.</p>
+
+    </section>
+
+</body>
+</html>
