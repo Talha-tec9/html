@@ -60,6 +60,7 @@ nav a {
 
 nav a:hover {
     color: #ed1c24;
+    box-shadow: #f4f81a40 0px 54px 55px, rgba(83, 83, 83, 0.12) 0px -12px 30px, rgba(172, 171, 171, 0.12) 0px 4px 6px, rgba(223, 219, 219, 0.17) 0px 12px 13px, rgba(199, 194, 194, 0.09) 0px -3px 5px;
 }
 
 

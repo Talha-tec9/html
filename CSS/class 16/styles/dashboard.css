@@ -160,10 +160,197 @@ body {
 .reels{
     flex: 2.5;
     height: 100%;
-    background-color: #4c0be4;
+    /* background-color: #4c0be4; */
+    
 }
+#main-post{
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.post > img{
+    border-radius: 50%;
+}
+.post-input > input{
+    width: 600px;
+    height: 90px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 41%);
+    padding-left: 10px;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-input > input:hover{
+    border: 2px solid hwb(0 42% 57%);
+}
+/* BUTTONS */
+
+.post-icons button {
+
+    width: 75px;
+    height: 75px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #e4e6eb;
+
+    cursor: pointer;
+
+    font-size: 25px;
+
+    color: #050505;
+}
+
+
+/* HOVER EFFECT */
+
+.post-icons button:hover {
+
+    background-color: #d8dadf;
+}
+
+
+/* ICON */
+
+.post-icons button i {
+    pointer-events: none;
+}
+
 .group-chats{
     flex: 1;
     height: 689px;
-    background-color: rgb(25, 25, 25);
+    /* background-color: rgb(25, 25, 25); */
+    margin-left: 10px;
 }
+.group-chats > .pic:hover{
+    background-color: hsl(0, 7%, 89%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#story{
+    /* background-color: rgb(212, 20, 20); */
+    height: 350px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#story > .story-item{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(122, 121, 121);
+    margin: 0 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.story-item > img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+.story-item > i{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 176px;
+    margin-left:75px;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 255, 255);
+    color: #1e07f1;
+}
+.story-item > i:hover{
+    background-color: hsl(0, 7%, 89%);
+    cursor: pointer;
+}
+#post-area{
+    /* background-color: rgb(214, 19, 19); */
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    background-color: rgb(138, 136, 136);
+}
+.post-area-header{
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+     box-shadow: #07070733 0px 7px 29px 0px;
+     margin: 10px 0px 10px 0px;
+     padding: 10px 0px 10px 0px;
+     background-color:white;
+     border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+}
+.post-area-header-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.post-area-header-text > p {
+    font-size: 15px;
+}
+.post-area-header-text > p:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+.post-area-header-text > h4:hover{
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: #07070733 0px 7px 29px 0px;
+}
+.post-area-header > img{
+    border-radius: 50%;
+    margin:5px 0px 5px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.post-area-content > img{
+    width: 1400px;
+    height: 700px;
+    margin-left: 70px;
+    border-radius: 20px;
+   
+}
+.post-area-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    background-color:white;
+    gap: 100px;
+     border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+}
+.post-area-footer > button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+   
+    font-size: 30px;
+   
+}
+.post-area-footer > button:hover{
+    background-color: hsl(0, 7%, 89%);
+    cursor: pointer;
+    
+}
+
+
