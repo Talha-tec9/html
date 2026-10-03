@@ -1,0 +1,82 @@
+
+#container{  
+  margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+#left-box{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid gray;
+}
+#left-box > h1{
+    font-size: 70px;
+}
+#left-box > div >img {
+    height: 600px;
+    width: 600px;
+}
+#left-box > img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+span{
+    color:blue
+}
+
+#right-box{
+     flex-direction: column;
+     height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+input{
+   width: 700px;
+   height: 50px;
+   margin-bottom: 20px;   
+   border-radius: 16px;
+   border: 1px solid black;
+   padding-left: 20px;
+   font-size: larger;
+}
+button{
+   width: 700px;
+   height: 50px;
+   margin-bottom: 20px;   
+   border-radius: 16px; 
+   border-color: blue;
+   color: blue;
+   background-color:white ;
+   font-weight: bold;
+   font-size:20px ;
+
+}
+a > button{
+    width: 700px;
+   height: 50px;
+   margin-bottom: 20px;   
+   border-radius: 16px; 
+   border-color: blue;
+   color: blue;
+   background-color:white ;
+   font-weight: bold;
+   font-size:20px ; 
+}
+#for{
+    border: none;
+    color: black;
+}
+button:hover{
+    background-color:lightgray ;
+}
+

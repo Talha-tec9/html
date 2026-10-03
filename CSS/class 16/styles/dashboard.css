@@ -1,0 +1,169 @@
+/* Remove default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+
+/* NAVBAR */
+.navbar {
+    height: 100px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+/* LEFT SIDE */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* LOGO */
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* SEARCH BOX */
+.search-box {
+    width: 350px;
+    height: 80px;
+
+    background-color: #f0f2f5;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 15px;
+}
+
+
+.search-box i {
+    color: #65676b;
+    margin-right: 10px;
+}
+
+
+.search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    font-size: 25px;
+}
+
+
+/* CENTER */
+.nav-center {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+/* RIGHT */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/* BUTTONS */
+.nav-center button,
+.nav-right button {
+
+    width: 75px;
+    height: 75px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #e4e6eb;
+
+    cursor: pointer;
+
+    font-size: 25px;
+
+    color: #050505;
+}
+
+
+/* HOVER EFFECT */
+.nav-center button:hover,
+.nav-right button:hover {
+
+    background-color: #d8dadf;
+}
+
+
+/* ICON */
+.nav-center button i,
+.nav-right button i {
+    pointer-events: none;
+}
+#main{
+    display: flex;
+    height: 500px;
+    
+}
+/* PROFILE */
+.profile{
+    flex: 1;
+    height: 689px;
+    padding: 20px 0px 5px 10px;
+    
+}
+.pic{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: 5px;
+    margin-bottom: 20px;
+  
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.profile > .pic:hover{
+    background-color: hsl(0, 7%, 89%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reels{
+    flex: 2.5;
+    height: 100%;
+    background-color: #4c0be4;
+}
+.group-chats{
+    flex: 1;
+    height: 689px;
+    background-color: rgb(25, 25, 25);
+}
