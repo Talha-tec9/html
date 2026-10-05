@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#iheader {
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 3, 3);
+    position:fixed;
+}
+
+.apple-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+
+}
+
+.apple-h>button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+
+}
+
+.apple-h>button:hover {
+
+    font-size: 22px;
+    text-shadow: 10px 10px 10px rgb(247, 244, 244);
+    cursor: pointer;
+}
+
+#bon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#bon {
+    height: 700px;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0),
+            rgba(27, 27, 27, 0.3)),
+        url("https://images.unsplash.com/photo-1616410011236-7a42121dd981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXBob25lfGVufDB8fDB8fHww");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.ban {
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ban>p {
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.byee {
+    /* background-color: rgb(0, 0, 0); */
+    width: 800px;
+    height: 60px;
+    justify-content: space-between;
+     display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 40px;
+    border:1px solid black;
+    margin-top: 120px;
+    
+}
+.byee>p{
+    margin-left: 20px;
+}
+.byee>button{
+    width: 110px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border:1px solid white;
+    font-size: 20px;
+    border-radius: 40px;
+}
+.byee>button:hover{
+    font-size: 22px;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+.duo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.duo>p{
+    font-size: 20px;
+    color:rgb(68, 68, 68)
+}
+.duo>h1{
+    font-size: 60px;
+    font-style: italic;
+}
+.duo>img{
+    margin-top: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 10px 0px rgb(0  0  0 / 0.6);
+}
+.watch{
+     height: 700px;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0),
+            rgba(27, 27, 27, 0.3)),
+        url("https://images.unsplash.com/photo-1617625802912-cde586faf331?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcGxlJTIwd2F0Y2glMjAxMnxlbnwwfHwwfHx8MA%3D%3D");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    margin-top: 15px;
+}
+.watch{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(238, 243, 162);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.watch>button{
+        width: 110px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border:1px solid white;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-top: 400px;
+}
+.watch>button:hover{
+     font-size: 22px;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
