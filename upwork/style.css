@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #263238;
+    background-color: #ffffff;
+}
+
+
+.navbar {
+    min-height: 76px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo,
+.footer-logo {
+    color: #14a800;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -1.5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a,
+.nav-buttons a {
+    text-decoration: none;
+    color: #263238;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-buttons>a:first-child:hover {
+    color: #14a800;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    white-space: nowrap;
+}
+
+.nav-buttons .signup {
+    background-color: #14a800;
+    color: white;
+    padding: 12px 23px;
+    border-radius: 25px;
+}
+
+.nav-buttons .signup:hover {
+    background-color: #108500;
+}
+
+
+.hero {
+    background-color: #f7f9f7;
+    padding: 75px 20px 80px;
+    text-align: center;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.tSF_Vze_yO1CPoRYJFtW3wHaFN?r=0&pid=Api&h=220&P=0);
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 32px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.search-box {
+    background-color: white;
+    border: 1px solid #bfc5c0;
+    border-radius: 8px;
+    max-width: 650px;
+    height: 58px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 12px;
+    transition: 0.3s;
+}
+
+.search-box:focus-within {
+    border-color: #14a800;
+    box-shadow: 0 0 0 2px #14a80020;
+}
+
+.search-box i {
+    font-size: 19px;
+    color: #555f58;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    color: #263238;
+}
+
+.search-box input::placeholder {
+    color: #777777;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 55px 25px 10px;
+}
+
+.container h2,
+.popular h2 {
+    font-size: 25px;
+    margin-bottom: 28px;
+    color: #222222;
+    font-weight: 600;
+}
+
+
+.account-types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.account-card {
+    padding: 28px 25px;
+    border: 1px solid #d9ded9;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #263238;
+    transition: 0.25s;
+}
+
+.account-card:hover,
+.category-card:hover {
+    border-color: #14a800;
+    box-shadow: 0 4px 14px #0000000d;
+    transform: translateY(-3px);
+}
+
+.account-icon {
+    font-size: 30px;
+    color: #14a800;
+    margin-bottom: 18px;
+}
+
+.account-card h3,
+.category-card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #222222;
+}
+
+.account-card p,
+.category-card p {
+    color: #626b65;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 17px;
+}
+
+.account-card span {
+    color: #108500;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.account-card span i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.categories-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.category-card {
+    min-height: 210px;
+    padding: 24px 20px;
+    border: 1px solid #d9ded9;
+    border-radius: 9px;
+    text-decoration: none;
+    color: #263238;
+    transition: 0.25s;
+}
+
+.category-icon {
+    font-size: 27px;
+    color: #14a800;
+    margin-bottom: 20px;
+}
+
+.category-card span {
+    color: #108500;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.category-card span i {
+    margin-left: 5px;
+}
+
+
+.popular {
+    background-color: #f7f9f7;
+    padding: 45px 7%;
+}
+
+.popular-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.popular-links a {
+    color: #267a20;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.popular-links a i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.popular-links a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #102b20;
+    color: white;
+    padding: 35px 7% 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #a6e89c;
+}
+
+.copyright {
+    border-top: 1px solid #ffffff40;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #d2ddd5;
+}
+
+
+@media (max-width: 1000px) {
+
+    .navbar {
+        padding: 15px 4%;
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        min-height: 70px;
+        gap: 15px;
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    .nav-links {
+        order: 3;
+        width: 100%;
+        overflow-x: auto;
+        padding: 8px 0;
+    }
+
+    .nav-links a {
+        white-space: nowrap;
+    }
+
+    .nav-buttons {
+        gap: 12px;
+    }
+
+    .nav-buttons .signup {
+        padding: 10px 16px;
+    }
+
+    .hero {
+        padding: 55px 18px;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+        line-height: 1.3;
+    }
+
+    .search-box {
+        height: 54px;
+    }
+
+    .account-types,
+    .categories,
+    .popular-links {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .container h2,
+    .popular h2 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .account-card {
+        padding: 23px;
+    }
+
+    .category-card {
+        min-height: auto;
+    }
+
+    .footer-links {
+        gap: 16px;
+    }
+
+}
