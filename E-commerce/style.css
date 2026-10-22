@@ -8,18 +8,51 @@
 
 }
 
-.carousel-item > img {
-    height: 650px;
-    background-position: cover;
-    object-fit: cover;
-   
+#carouselExampleAutoplaying {
+    width: 100%;
+    height: 700px;
 }
-h1{
+
+.carousel-item>img {
+    object-fit: cover;
+    height: 650px;
+}
+
+h1 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.grid{
-    
-   margin-left:150px;
+
+.grid {
+
+    margin-left: 150px;
+}
+
+
+
+/* feedback css */
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.first {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.icon>i {
+    margin-bottom: 20px;
+
+}
+
+textarea {
+    height: 160px;
+    width: 240px;
+    padding: 16px;
+    border-radius: 5px;
 }
