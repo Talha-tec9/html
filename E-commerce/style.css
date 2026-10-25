@@ -56,3 +56,26 @@ textarea {
     padding: 16px;
     border-radius: 5px;
 }
+
+
+
+/* contect css */
+
+
+.gg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.su > input{
+    margin-bottom: 20px;
+    height: 70px;
+    width: 500px;border-radius: 10px;
+border: 1px solid gray;
+padding-left: 10px;
+
+}
+i:hover{
+    color: blue;
+}

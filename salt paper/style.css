@@ -19,6 +19,9 @@ header {
     width: 100%;
     background: #000000;
     border-bottom: 1px solid #333333;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 
 .navbar {
@@ -29,6 +32,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 
@@ -95,10 +99,8 @@ nav a:hover {
     height: 380px;
 
     background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.60),
-            rgba(0, 0, 0, 0.60)
-        ),
+        linear-gradient(rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)),
         url("https://static.tossdown.com/images/81777993-a226-4c3e-bd3f-0401e68fa6f2.webp");
 
     background-size: cover;
@@ -603,7 +605,7 @@ footer {
     margin-bottom: 8px;
 }
 
-.footer-box > a {
+.footer-box>a {
     display: block;
 
     color: #aaaaaa;
@@ -613,7 +615,7 @@ footer {
     margin-bottom: 12px;
 }
 
-.footer-box > a:hover {
+.footer-box>a:hover {
     color: #ed1c24;
 }
 
